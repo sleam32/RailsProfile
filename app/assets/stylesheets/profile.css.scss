@@ -1,0 +1,32 @@
+// Place all the styles related to the profile controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+    font-family: 'journalregular';
+    src: url('journal-webfont.eot');
+    src: url('journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('journal-webfont.woff') format('woff'),
+         url('journal-webfont.ttf') format('truetype'),
+         url('journal-webfont.svg#journalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  background-image:url("wavegrid.png");
+  text-align: center;
+  font-family: 'journalregular';
+}
+
+h1{
+  font-size: 100px;
+  color: white;
+}
+
+p{
+  font-size: 22px;
+  width: 300px;
+  margin: auto;
+}
