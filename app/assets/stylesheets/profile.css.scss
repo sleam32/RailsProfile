@@ -22,14 +22,14 @@ font-family: 'journalregular';
 
 h1{
 font-size: 100px;
-color: #E0F8E6;
+color: white;
 margin-top: -20px;
 margin-bottom: -40px;
 text-shadow: 0 0 10px black;
 }
 
 p{
-font-size: 22px;
+font-size: 26px;
 width: 300px;
 margin: auto;
 }
@@ -40,6 +40,9 @@ margin: auto;
 float: left;
 padding-left: 165px;
 padding-top:70px;
+border-bottom: 4px solid;
+border-color: red;
+border-width: 10px;
 }
 
 #footer{
